@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt title="Anonymous Submission" version="0.9.3" root="/disk/projects/android" LC_NUMERIC="en_US.UTF-8">
- <profile width="1080" display_aspect_den="16" colorspace="709" frame_rate_den="1" description="Android 1080x1920i 25 fps" height="1920" display_aspect_num="9" frame_rate_num="25" progressive="0" sample_aspect_num="1" sample_aspect_den="1"/>
+<mlt title="Anonymous Submission" version="0.9.3" root="/home/bob" LC_NUMERIC="en_US.UTF-8">
+ <profile width="1080" display_aspect_den="16" colorspace="0" frame_rate_den="1" description="Android 1080x1920i 25 fps" height="1920" display_aspect_num="9" frame_rate_num="25" progressive="0" sample_aspect_num="1" sample_aspect_den="1"/>
  <producer in="0" out="14999" id="black">
   <property name="mlt_type">producer</property>
   <property name="length">15000</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bob/black</property>
+  <property name="resource">black</property>
   <property name="aspect_ratio">0</property>
   <property name="mlt_service">colour</property>
  </producer>
  <playlist id="black_track">
-  <entry in="0" out="4255" producer="black"/>
+  <entry in="0" out="4248" producer="black"/>
  </playlist>
  <producer in="0" out="5185" id="16_1">
   <property name="mlt_type">producer</property>
   <property name="length">5186</property>
   <property name="eof">pause</property>
-  <property name="resource">/disk/projects/stuff/demo/12_ppk_voskreshenie_myzuka.ru.mp3</property>
+  <property name="resource">/my/projects/stuff/demo/12_ppk_voskreshenie_myzuka.ru.mp3</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16p</property>
@@ -48,20 +48,34 @@
     <property name="kdenlive_id">fadein</property>
     <property name="tag">volume</property>
     <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
     <property name="gain">0</property>
     <property name="end">1</property>
-    <property name="kdenlive_info"/>
    </filter>
   </entry>
  </playlist>
- <producer in="0" out="574" id="12">
+ <producer in="0" out="249" id="27">
   <property name="mlt_type">producer</property>
-  <property name="length">575</property>
+  <property name="length">250</property>
   <property name="eof">pause</property>
-  <property name="resource">/disk/projects/stuff/demo/v0.7-starting.mp4</property>
+  <property name="resource">/my/projects/stuff/demo/logo/.all.png</property>
+  <property name="ttl">250</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1080</property>
+  <property name="meta.media.height">1920</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
+ <producer in="0" out="700" id="28">
+  <property name="mlt_type">producer</property>
+  <property name="length">701</property>
+  <property name="eof">pause</property>
+  <property name="resource">/my/projects/stuff/demo/device-6.mp4</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">44.5</property>
+  <property name="meta.media.0.stream.frame_rate">12.3333</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
   <property name="meta.media.0.codec.width">1080</property>
   <property name="meta.media.0.codec.height">1920</property>
@@ -71,13 +85,13 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">2418675</property>
-  <property name="meta.attr.0.stream.creation_time.markup">2014-12-03 23:51:15</property>
+  <property name="meta.media.0.codec.bit_rate">3607045</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2015-09-22 23:27:06</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.major_brand.markup">mp42</property>
   <property name="meta.attr.minor_version.markup">0</property>
   <property name="meta.attr.compatible_brands.markup">isommp42</property>
-  <property name="meta.attr.creation_time.markup">2014-12-03 23:51:15</property>
+  <property name="meta.attr.creation_time.markup">2015-09-22 23:27:06</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">65536</property>
   <property name="meta.media.sample_aspect_den">65536</property>
@@ -85,23 +99,23 @@
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">89</property>
-  <property name="meta.media.frame_rate_den">2</property>
+  <property name="meta.media.frame_rate_num">37</property>
+  <property name="meta.media.frame_rate_den">3</property>
   <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
   <property name="meta.media.width">1080</property>
   <property name="meta.media.height">1920</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <property name="meta.media.color_trc">2</property>
  </producer>
- <producer in="0" out="1824" id="11">
+ <producer in="0" out="1739" id="18">
   <property name="mlt_type">producer</property>
-  <property name="length">1825</property>
+  <property name="length">1740</property>
   <property name="eof">pause</property>
-  <property name="resource">/disk/projects/stuff/demo/v0.7-1-activation.mp4</property>
+  <property name="resource">/my/projects/stuff/demo/device-1.mp4</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">37.5</property>
+  <property name="meta.media.0.stream.frame_rate">31.5833</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
   <property name="meta.media.0.codec.width">1080</property>
   <property name="meta.media.0.codec.height">1920</property>
@@ -111,13 +125,13 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">1448503</property>
-  <property name="meta.attr.0.stream.creation_time.markup">2014-12-03 00:23:41</property>
+  <property name="meta.media.0.codec.bit_rate">1163477</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2015-09-22 21:29:39</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.major_brand.markup">mp42</property>
   <property name="meta.attr.minor_version.markup">0</property>
   <property name="meta.attr.compatible_brands.markup">isommp42</property>
-  <property name="meta.attr.creation_time.markup">2014-12-03 00:23:41</property>
+  <property name="meta.attr.creation_time.markup">2015-09-22 21:29:39</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">65536</property>
   <property name="meta.media.sample_aspect_den">65536</property>
@@ -125,20 +139,60 @@
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">75</property>
-  <property name="meta.media.frame_rate_den">2</property>
+  <property name="meta.media.frame_rate_num">379</property>
+  <property name="meta.media.frame_rate_den">12</property>
   <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
   <property name="meta.media.width">1080</property>
   <property name="meta.media.height">1920</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <property name="meta.media.color_trc">2</property>
  </producer>
- <producer in="0" out="1403" id="13">
+ <producer in="0" out="2111" id="19">
   <property name="mlt_type">producer</property>
-  <property name="length">1404</property>
+  <property name="length">2112</property>
   <property name="eof">pause</property>
-  <property name="resource">/disk/projects/stuff/demo/v0.7-owncloud-activate.mp4</property>
+  <property name="resource">/my/projects/stuff/demo/device-2.mp4</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">26.9167</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1080</property>
+  <property name="meta.media.0.codec.height">1920</property>
+  <property name="meta.media.0.codec.frame_rate">inf</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">592532</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2015-09-22 21:33:39</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">mp42</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">isommp42</property>
+  <property name="meta.attr.creation_time.markup">2015-09-22 21:33:39</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">65536</property>
+  <property name="meta.media.sample_aspect_den">65536</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">323</property>
+  <property name="meta.media.frame_rate_den">12</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1080</property>
+  <property name="meta.media.height">1920</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="666" id="20">
+  <property name="mlt_type">producer</property>
+  <property name="length">667</property>
+  <property name="eof">pause</property>
+  <property name="resource">/my/projects/stuff/demo/device-3.mp4</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">43.25</property>
@@ -151,13 +205,13 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">1222260</property>
-  <property name="meta.attr.0.stream.creation_time.markup">2014-12-04 00:00:52</property>
+  <property name="meta.media.0.codec.bit_rate">230310</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2015-09-22 22:11:29</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.major_brand.markup">mp42</property>
   <property name="meta.attr.minor_version.markup">0</property>
   <property name="meta.attr.compatible_brands.markup">isommp42</property>
-  <property name="meta.attr.creation_time.markup">2014-12-04 00:00:52</property>
+  <property name="meta.attr.creation_time.markup">2015-09-22 22:11:29</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">65536</property>
   <property name="meta.media.sample_aspect_den">65536</property>
@@ -168,19 +222,20 @@
   <property name="meta.media.frame_rate_num">173</property>
   <property name="meta.media.frame_rate_den">4</property>
   <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
   <property name="meta.media.width">1080</property>
   <property name="meta.media.height">1920</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer in="0" out="1258" id="14">
+ <producer in="0" out="669" id="21">
   <property name="mlt_type">producer</property>
-  <property name="length">1259</property>
+  <property name="length">670</property>
   <property name="eof">pause</property>
-  <property name="resource">/disk/projects/stuff/demo/v0.7-owncloud-use.mp4</property>
+  <property name="resource">/my/projects/stuff/demo/device-4.mp4</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">20.5833</property>
+  <property name="meta.media.0.stream.frame_rate">6.75</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
   <property name="meta.media.0.codec.width">1080</property>
   <property name="meta.media.0.codec.height">1920</property>
@@ -190,13 +245,13 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">3149020</property>
-  <property name="meta.attr.0.stream.creation_time.markup">2014-12-04 00:57:15</property>
+  <property name="meta.media.0.codec.bit_rate">1151563</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2015-09-22 22:25:19</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.major_brand.markup">mp42</property>
   <property name="meta.attr.minor_version.markup">0</property>
   <property name="meta.attr.compatible_brands.markup">isommp42</property>
-  <property name="meta.attr.creation_time.markup">2014-12-04 00:57:15</property>
+  <property name="meta.attr.creation_time.markup">2015-09-22 22:25:19</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">65536</property>
   <property name="meta.media.sample_aspect_den">65536</property>
@@ -204,22 +259,23 @@
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">247</property>
-  <property name="meta.media.frame_rate_den">12</property>
+  <property name="meta.media.frame_rate_num">27</property>
+  <property name="meta.media.frame_rate_den">4</property>
   <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
   <property name="meta.media.width">1080</property>
   <property name="meta.media.height">1920</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer in="0" out="902" id="15">
+ <producer in="0" out="1631" id="22">
   <property name="mlt_type">producer</property>
-  <property name="length">903</property>
+  <property name="length">1632</property>
   <property name="eof">pause</property>
-  <property name="resource">/disk/projects/stuff/demo/v0.7-website.mp4</property>
+  <property name="resource">/my/projects/stuff/demo/device-5.mp4</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">33.4167</property>
+  <property name="meta.media.0.stream.frame_rate">5.75</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
   <property name="meta.media.0.codec.width">1080</property>
   <property name="meta.media.0.codec.height">1920</property>
@@ -229,13 +285,13 @@
   <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">2601106</property>
-  <property name="meta.attr.0.stream.creation_time.markup">2014-12-04 01:00:10</property>
+  <property name="meta.media.0.codec.bit_rate">2343232</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2015-09-22 22:33:52</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.major_brand.markup">mp42</property>
   <property name="meta.attr.minor_version.markup">0</property>
   <property name="meta.attr.compatible_brands.markup">isommp42</property>
-  <property name="meta.attr.creation_time.markup">2014-12-04 01:00:10</property>
+  <property name="meta.attr.creation_time.markup">2015-09-22 22:33:52</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">65536</property>
   <property name="meta.media.sample_aspect_den">65536</property>
@@ -243,26 +299,42 @@
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">401</property>
-  <property name="meta.media.frame_rate_den">12</property>
+  <property name="meta.media.frame_rate_num">23</property>
+  <property name="meta.media.frame_rate_den">4</property>
   <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
   <property name="meta.media.width">1080</property>
   <property name="meta.media.height">1920</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist1">
-  <entry in="0" out="574" producer="12"/>
-  <entry in="80" out="872" producer="11"/>
-  <entry in="1698" out="1824" producer="11"/>
-  <entry in="0" out="261" producer="13"/>
-  <entry in="479" out="833" producer="13"/>
-  <entry in="1227" out="1403" producer="13"/>
-  <entry in="0" out="1186" producer="14"/>
-  <entry in="52" out="221" producer="15"/>
-  <entry in="293" out="902" producer="15"/>
+  <entry in="0" out="74" producer="27"/>
+  <entry in="0" out="525" producer="28"/>
+  <entry in="63" out="853" producer="18"/>
+  <entry in="1474" out="1739" producer="18"/>
+  <entry in="51" out="141" producer="19"/>
+  <entry in="213" out="361" producer="19"/>
+  <entry in="362" out="523" producer="19"/>
+  <entry in="93" out="250" producer="20"/>
+  <entry in="451" out="666" producer="20"/>
+  <entry in="524" out="616" producer="19"/>
+  <entry in="686" out="706" producer="19"/>
+  <entry in="740" out="786" producer="19"/>
+  <entry in="803" out="849" producer="19"/>
+  <entry in="963" out="1000" producer="19"/>
+  <entry in="1161" out="1213" producer="19"/>
+  <entry in="1520" out="1644" producer="19"/>
+  <entry in="1781" out="1830" producer="19"/>
+  <entry in="1972" out="1997" producer="19"/>
+  <entry in="0" out="137" producer="21"/>
+  <entry in="168" out="186" producer="21"/>
+  <entry in="263" out="355" producer="21"/>
+  <entry in="370" out="669" producer="21"/>
+  <entry in="1050" out="1631" producer="22"/>
+  <entry in="0" out="182" producer="27"/>
  </playlist>
- <tractor title="Anonymous Submission" global_feed="1" in="0" out="4255" id="maintractor">
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="4248" id="maintractor">
   <property name="meta.volume">1</property>
   <track producer="black_track"/>
   <track hide="video" producer="playlist0"/>
@@ -276,27 +348,104 @@
    <property name="combine">1</property>
    <property name="internal_added">237</property>
   </transition>
+  <transition in="10" out="74" id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="75" out="139" id="transition4">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition in="4276" out="4340" id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition in="4569" out="4633" id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="4634" out="4698" id="transition5">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition in="4001" out="4065" id="transition6">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="4066" out="4130" id="transition7">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
  </tractor>
- <kdenlivedoc profile="/home/bob/.kde/share/apps/kdenlive/profiles/customprofile0" kdenliveversion="0.9.10" version="0.88" projectfolder="/demo">
+ <kdenlivedoc profile="/home/bob/.kde/share/apps/kdenlive/profiles/customprofile0" kdenliveversion="0.9.10" version="0.88" projectfolder="/home/bob/kdenlive">
   <customeffects/>
-  <documentproperties documentid="1401124073603" renderaudiobitrate="160" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="H.264/AAC High Profile" renderrescaleheight="240" zonein="1539" renderrescale="0" renderscanning="1" renderurl="/disk/projects/stuff/demo/syncloud-v0.7.mp4" rendertwopass="0" renderplay="0" position="110" proxyminsize="1000" renderstartguide="-1" zoom="6" rendercategory="MP4" renderratio="0" zoneout="2049" renderbitrate="20" renderzone="0" renderendguide="-1" renderexportaudio="2" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1401124073603" renderaudiobitrate="160" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="H.264/AAC High Profile" renderrescaleheight="240" zonein="1539" renderrescale="0" renderscanning="1" renderurl="/my/temp/syncloud-v0.9.mp4" rendertwopass="0" renderplay="0" position="910" proxyminsize="1000" renderstartguide="-1" zoom="5" rendercategory="MP4" renderratio="0" zoneout="2049" renderbitrate="20" renderzone="0" renderendguide="-1" renderexportaudio="2" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'Oxygen-Sans'; font-size:9pt; font-weight:400; font-style:normal;">
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:8pt;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
   <profileinfo width="1080" display_aspect_den="16" frame_rate_den="1" description="Android 1080x1920i 25 fps" height="1920" frame_rate_num="25" display_aspect_num="9" progressive="0" sample_aspect_num="1" sample_aspect_den="1"/>
   <tracksinfo>
-   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 1" type="audio"/>
+   <trackinfo blind="1" mute="0" locked="1" trackname="Audio 1" type="audio"/>
    <trackinfo blind="0" mute="0" locked="0" trackname="Video 1"/>
   </tracksinfo>
-  <kdenlive_producer audio_max="52" audiocodec="MP3 (MPEG audio layer 3)" channels="2" duration="10569" frame_size="1080x1920" frequency="44100" analysisdata="" file_size="6764108" aspect_ratio="0" file_hash="18fe51401c353ca392ed79c2da6c78c8" type="1" id="3" name="radiotrance.mp3" resource="/demo/radiotrance.mp3">
+  <kdenlive_producer audio_max="52" audiocodec="MP3 (MPEG audio layer 3)" channels="2" duration="10569" frame_size="1080x1920" frequency="44100" analysisdata="" file_size="6764108" aspect_ratio="0" file_hash="18fe51401c353ca392ed79c2da6c78c8" type="1" id="3" name="radiotrance.mp3" resource="/my/projects/stuff/demo/radiotrance.mp3">
    <metaproperty tool="" name="meta.attr.artist">Radio Trance</metaproperty>
    <metaproperty tool="" name="meta.attr.genre">Trance</metaproperty>
    <metaproperty tool="" name="meta.attr.title">Ãîðÿ÷èé Êàê Ñîëíöå ...</metaproperty>
   </kdenlive_producer>
-  <kdenlive_producer audio_max="0" id="11" pix_fmt="yuv420p" default_video="0" fps="37.5" analysisdata="" name="v0.7-1-activation.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/disk/projects/stuff/demo/v0.7-1-activation.mp4" default_audio="-1" duration="1825" file_hash="37ed2e3476b5b7ac1cf76f31f4443d0a" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="13238685">
+  <kdenlive_producer audio_max="0" id="11" pix_fmt="yuv420p" default_video="0" fps="37.5" analysisdata="" name="v0.7-1-activation.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/v0.7-1-activation.mp4" default_audio="-1" duration="1825" file_hash="37ed2e3476b5b7ac1cf76f31f4443d0a" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="13238685">
    <metaproperty tool="" name="meta.attr.0.stream.creation_time">2014-12-03 00:23:41</metaproperty>
    <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
    <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
@@ -304,7 +453,7 @@ p, li { white-space: pre-wrap; }
    <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
    <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
   </kdenlive_producer>
-  <kdenlive_producer audio_max="0" id="12" pix_fmt="yuv420p" default_video="0" fps="44.5" analysisdata="" name="v0.7-starting.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/disk/projects/stuff/demo/v0.7-starting.mp4" default_audio="-1" duration="575" file_hash="215999ead66e7ec9fe36622290ba3c7a" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="6971023">
+  <kdenlive_producer audio_max="0" id="12" pix_fmt="yuv420p" default_video="0" fps="44.5" analysisdata="" name="v0.7-starting.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/v0.7-starting.mp4" default_audio="-1" duration="575" file_hash="215999ead66e7ec9fe36622290ba3c7a" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="6971023">
    <metaproperty tool="" name="meta.attr.0.stream.creation_time">2014-12-03 23:51:15</metaproperty>
    <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
    <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
@@ -312,7 +461,7 @@ p, li { white-space: pre-wrap; }
    <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
    <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
   </kdenlive_producer>
-  <kdenlive_producer audio_max="0" id="13" pix_fmt="yuv420p" default_video="0" fps="43.25" analysisdata="" name="v0.7-owncloud-activate.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/disk/projects/stuff/demo/v0.7-owncloud-activate.mp4" default_audio="-1" duration="1404" file_hash="2ed0b11cc5e5c51294b7bd804dd99fcd" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="8597310">
+  <kdenlive_producer audio_max="0" id="13" pix_fmt="yuv420p" default_video="0" fps="43.25" analysisdata="" name="v0.7-owncloud-activate.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/v0.7-owncloud-activate.mp4" default_audio="-1" duration="1404" file_hash="2ed0b11cc5e5c51294b7bd804dd99fcd" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="8597310">
    <metaproperty tool="" name="meta.attr.0.stream.creation_time">2014-12-04 00:00:52</metaproperty>
    <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
    <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
@@ -320,7 +469,7 @@ p, li { white-space: pre-wrap; }
    <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
    <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
   </kdenlive_producer>
-  <kdenlive_producer audio_max="0" id="14" pix_fmt="yuv420p" default_video="0" fps="20.5833" analysisdata="" name="v0.7-owncloud-use.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/disk/projects/stuff/demo/v0.7-owncloud-use.mp4" default_audio="-1" duration="1259" file_hash="309283a93f38e2270bf62167db2c13ee" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="19851567">
+  <kdenlive_producer audio_max="0" id="14" pix_fmt="yuv420p" default_video="0" fps="20.5833" analysisdata="" name="v0.7-owncloud-use.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/v0.7-owncloud-use.mp4" default_audio="-1" duration="1259" file_hash="309283a93f38e2270bf62167db2c13ee" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="19851567">
    <metaproperty tool="" name="meta.attr.0.stream.creation_time">2014-12-04 00:57:15</metaproperty>
    <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
    <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
@@ -328,7 +477,7 @@ p, li { white-space: pre-wrap; }
    <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
    <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
   </kdenlive_producer>
-  <kdenlive_producer audio_max="0" id="15" pix_fmt="yuv420p" default_video="0" fps="33.4167" analysisdata="" name="v0.7-website.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/disk/projects/stuff/demo/v0.7-website.mp4" default_audio="-1" duration="903" file_hash="aa72195d3fdd1a9000dd5da9e7cb402f" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="11760572">
+  <kdenlive_producer audio_max="0" id="15" pix_fmt="yuv420p" default_video="0" fps="33.4167" analysisdata="" name="v0.7-website.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/v0.7-website.mp4" default_audio="-1" duration="903" file_hash="aa72195d3fdd1a9000dd5da9e7cb402f" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="11760572">
    <metaproperty tool="" name="meta.attr.0.stream.creation_time">2014-12-04 01:00:10</metaproperty>
    <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
    <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
@@ -336,7 +485,7 @@ p, li { white-space: pre-wrap; }
    <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
    <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
   </kdenlive_producer>
-  <kdenlive_producer audio_max="62" audiocodec="MP3 (MPEG audio layer 3)" channels="2" duration="5186" frame_size="1080x1920" frequency="44100" analysisdata="" file_size="6644161" aspect_ratio="0" file_hash="fc5a52e79aaff7b99f21490cff53de86" type="1" id="16" name="12_ppk_voskreshenie_myzuka.ru.mp3" resource="/disk/projects/stuff/demo/12_ppk_voskreshenie_myzuka.ru.mp3">
+  <kdenlive_producer audio_max="62" audiocodec="MP3 (MPEG audio layer 3)" channels="2" duration="5186" frame_size="1080x1920" frequency="44100" analysisdata="" file_size="6644161" aspect_ratio="0" file_hash="fc5a52e79aaff7b99f21490cff53de86" type="1" id="16" name="12_ppk_voskreshenie_myzuka.ru.mp3" resource="/my/projects/stuff/demo/12_ppk_voskreshenie_myzuka.ru.mp3">
    <metaproperty tool="" name="meta.attr.0.stream.encoder">LAME3.92 </metaproperty>
    <metaproperty tool="" name="meta.attr.album">Ðóññêèé Òðàíñ : Ôîðìèðîâàíèå</metaproperty>
    <metaproperty tool="" name="meta.attr.artist">ÏÏÊ</metaproperty>
@@ -344,6 +493,55 @@ p, li { white-space: pre-wrap; }
    <metaproperty tool="" name="meta.attr.genre">Trance</metaproperty>
    <metaproperty tool="" name="meta.attr.title">Âîñêðåøåíèå</metaproperty>
    <metaproperty tool="" name="meta.attr.track">12</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="0" id="18" pix_fmt="yuv420p" default_video="0" fps="31.5833" analysisdata="" name="device-1.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/device-1.mp4" default_audio="-1" duration="1740" file_hash="38bf5395d51a4b3b7859be65f599870a" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="10144892">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2015-09-22 21:29:39</metaproperty>
+   <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2015-09-22 21:29:39</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="0" id="19" pix_fmt="yuv420p" default_video="0" fps="26.9167" analysisdata="" name="device-2.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/device-2.mp4" default_audio="-1" duration="2112" file_hash="e84e5c66b2f755b100838b7810463d93" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="6272863">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2015-09-22 21:33:39</metaproperty>
+   <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2015-09-22 21:33:39</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="0" id="20" pix_fmt="yuv420p" default_video="0" fps="43.25" analysisdata="" name="device-3.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/device-3.mp4" default_audio="-1" duration="667" file_hash="0de6b95238d495ce457ef28051282b01" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="771541">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2015-09-22 22:11:29</metaproperty>
+   <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2015-09-22 22:11:29</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="0" id="21" pix_fmt="yuv420p" default_video="0" fps="6.75" analysisdata="" name="device-4.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/device-4.mp4" default_audio="-1" duration="670" file_hash="9196cf56e1d31a6e545798577dd60c00" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="3865712">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2015-09-22 22:25:19</metaproperty>
+   <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2015-09-22 22:25:19</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="0" id="22" pix_fmt="yuv420p" default_video="0" fps="5.75" analysisdata="" name="device-5.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/device-5.mp4" default_audio="-1" duration="1632" file_hash="805444f6861f76fc1fc7dc87dfbabf43" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="19145365">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2015-09-22 22:33:52</metaproperty>
+   <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2015-09-22 22:33:52</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer duration="250" frame_size="1080x1920" loop="0" in="0" analysisdata="" ttl="250" aspect_ratio="1" length="250" out="249" softness="0" luma_duration="00:00:01:00" type="7" id="27" fade="0" name="Slideshow Clip" crop="0" resource="/my/projects/stuff/demo/logo/.all.png"/>
+  <kdenlive_producer audio_max="0" id="28" pix_fmt="yuv420p" default_video="0" fps="12.3333" analysisdata="" name="device-6.mp4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/my/projects/stuff/demo/device-6.mp4" default_audio="-1" duration="701" file_hash="08936ebcda6840fafedf7ffdddd1aa96" aspect_ratio="1" video_max="0" progressive="1" type="2" frame_size="1080x1920" file_size="12648423">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2015-09-22 23:27:06</metaproperty>
+   <metaproperty tool="" name="meta.attr.0.stream.language">eng</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">isommp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2015-09-22 23:27:06</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">mp42</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">0</metaproperty>
   </kdenlive_producer>
   <markers/>
   <groups/>
