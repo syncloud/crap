@@ -57,4 +57,4 @@ if __name__=='__main__':
 
     ios('logo_material.svg', 'generated/AppIcon.appiconset','syncloud', app_icon_sizes, '#FFFFFF')
 
-    ios('logo_material.svg', 'generated/syncloud_logo', 'syncloud_log', {667: [1]})
+    ios('logo_material.svg', 'generated/syncloud_logo', 'syncloud_logo', {667: [1]})
