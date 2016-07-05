@@ -20,6 +20,18 @@ def convert_to_bitmap(vector_filename, out_filename, size):
     check_output(command, shell=True)
 
 
+def ios_image_filename(base_filename, size, multiplier):
+    width, height = size
+    if width == height:
+        output_filename = '{0}-{1}'.format(base_filename, width)
+    else:
+        output_filename = '{0}-{1}-{2}'.format(base_filename, width, height)
+    if not multiplier == 1:
+        output_filename += '@{0}x'.format(multiplier)
+    output_filename += '.png'
+    return output_filename
+
+
 def ios(vector_filename, output_path, output_base_filename, sizes, background=None):
     for size, multipliers in sizes.iteritems():
         if type(size) == tuple:
@@ -28,15 +40,10 @@ def ios(vector_filename, output_path, output_base_filename, sizes, background=No
             width = size
             height = size
         for multiplier in multipliers:
-            m_width = width * multiplier
-            m_height = height * multiplier
-            if width == height:
-                output_filename = '{0}-{1}@{2}x.png'.format(output_base_filename, width, multiplier)
-            else:
-                output_filename = '{0}-{1}-{2}@{3}x.png'.format(output_base_filename, width, height, multiplier)
+            output_filename = ios_image_filename(output_base_filename, (width, height), multiplier)
             make_dir(output_path)
             output_filepath = join(output_path, output_filename)
-            convert_to_bitmap(vector_filename, output_filepath, (m_width, m_height))
+            convert_to_bitmap(vector_filename, output_filepath, (width * multiplier, height * multiplier))
             if background:
                 set_background(output_filepath, background)
 
