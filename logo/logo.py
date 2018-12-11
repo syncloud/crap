@@ -52,7 +52,8 @@ if __name__=='__main__':
     app_icon_sizes = {
         60: [2, 3],
         76: [1, 2],
-        83.5: [2]
+        83.5: [2],
+        1024: [1]
     }
 
     ios('logo_material.svg', 'generated/AppIcon.appiconset','syncloud', app_icon_sizes, background='#FFFFFF')
