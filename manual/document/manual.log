@@ -1,0 +1,349 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.15)  15 APR 2020 20:56
+entering extended mode
+**./manual.tex
+(manual.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count175
+\l__pdf_internal_box=\box45
+)
+(manual.aux)
+\openout1 = `manual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+ ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count176
+\scratchdimen=\dimen137
+\scratchbox=\box46
+\nofMPsegments=\count177
+\nofMParguments=\count178
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count179
+\MPscratchDim=\dimen138
+\MPnumerator=\count180
+\makeMPintoPDFobject=\count181
+\everyMPtoPDFconversion=\toks17
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+
+
+LaTeX Warning: No \author given.
+
+<../frames/1.png, id=1, 1445.4pt x 813.0375pt>
+File: ../frames/1.png Graphic file (type png)
+<use ../frames/1.png>
+Package pdftex.def Info: ../frames/1.png  used on input line 13.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+[1
+
+{C:/Users/sebas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../frames/1
+.png>]
+File: ../frames/1.png Graphic file (type png)
+<use ../frames/1.png>
+Package pdftex.def Info: ../frames/1.png  used on input line 22.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/2.png, id=10, 1445.4pt x 813.0375pt>
+File: ../frames/2.png Graphic file (type png)
+<use ../frames/2.png>
+Package pdftex.def Info: ../frames/2.png  used on input line 30.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/3.png, id=11, 1445.4pt x 813.0375pt>
+File: ../frames/3.png Graphic file (type png)
+<use ../frames/3.png>
+Package pdftex.def Info: ../frames/3.png  used on input line 39.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/13.png, id=12, 1445.4pt x 813.0375pt>
+File: ../frames/13.png Graphic file (type png)
+<use ../frames/13.png>
+Package pdftex.def Info: ../frames/13.png  used on input line 46.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/14.png, id=13, 1445.4pt x 813.0375pt>
+File: ../frames/14.png Graphic file (type png)
+<use ../frames/14.png>
+Package pdftex.def Info: ../frames/14.png  used on input line 53.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/15.png, id=14, 1445.4pt x 813.0375pt>
+File: ../frames/15.png Graphic file (type png)
+<use ../frames/15.png>
+Package pdftex.def Info: ../frames/15.png  used on input line 60.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/16.png, id=15, 1445.4pt x 813.0375pt>
+File: ../frames/16.png Graphic file (type png)
+<use ../frames/16.png>
+Package pdftex.def Info: ../frames/16.png  used on input line 67.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/18.png, id=16, 1445.4pt x 813.0375pt>
+File: ../frames/18.png Graphic file (type png)
+<use ../frames/18.png>
+Package pdftex.def Info: ../frames/18.png  used on input line 74.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/19.png, id=17, 1445.4pt x 813.0375pt>
+File: ../frames/19.png Graphic file (type png)
+<use ../frames/19.png>
+Package pdftex.def Info: ../frames/19.png  used on input line 81.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/21.png, id=18, 1445.4pt x 813.0375pt>
+File: ../frames/21.png Graphic file (type png)
+<use ../frames/21.png>
+Package pdftex.def Info: ../frames/21.png  used on input line 88.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/22.png, id=19, 1445.4pt x 813.0375pt>
+File: ../frames/22.png Graphic file (type png)
+<use ../frames/22.png>
+Package pdftex.def Info: ../frames/22.png  used on input line 97.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/23.png, id=20, 1445.4pt x 813.0375pt>
+File: ../frames/23.png Graphic file (type png)
+<use ../frames/23.png>
+Package pdftex.def Info: ../frames/23.png  used on input line 104.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/24.png, id=21, 1445.4pt x 813.0375pt>
+File: ../frames/24.png Graphic file (type png)
+<use ../frames/24.png>
+Package pdftex.def Info: ../frames/24.png  used on input line 111.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/26.png, id=22, 1445.4pt x 813.0375pt>
+File: ../frames/26.png Graphic file (type png)
+<use ../frames/26.png>
+Package pdftex.def Info: ../frames/26.png  used on input line 120.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/27.png, id=23, 1445.4pt x 813.0375pt>
+File: ../frames/27.png Graphic file (type png)
+<use ../frames/27.png>
+Package pdftex.def Info: ../frames/27.png  used on input line 127.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/28.png, id=24, 1445.4pt x 813.0375pt>
+File: ../frames/28.png Graphic file (type png)
+<use ../frames/28.png>
+Package pdftex.def Info: ../frames/28.png  used on input line 134.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/29.png, id=25, 1445.4pt x 813.0375pt>
+File: ../frames/29.png Graphic file (type png)
+<use ../frames/29.png>
+Package pdftex.def Info: ../frames/29.png  used on input line 141.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/30.png, id=26, 1445.4pt x 813.0375pt>
+File: ../frames/30.png Graphic file (type png)
+<use ../frames/30.png>
+Package pdftex.def Info: ../frames/30.png  used on input line 148.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/31.png, id=27, 1445.4pt x 813.0375pt>
+File: ../frames/31.png Graphic file (type png)
+<use ../frames/31.png>
+Package pdftex.def Info: ../frames/31.png  used on input line 155.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/32.png, id=28, 1445.4pt x 813.0375pt>
+File: ../frames/32.png Graphic file (type png)
+<use ../frames/32.png>
+Package pdftex.def Info: ../frames/32.png  used on input line 162.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/33.png, id=29, 1445.4pt x 813.0375pt>
+File: ../frames/33.png Graphic file (type png)
+<use ../frames/33.png>
+Package pdftex.def Info: ../frames/33.png  used on input line 169.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/34.png, id=30, 1445.4pt x 813.0375pt>
+File: ../frames/34.png Graphic file (type png)
+<use ../frames/34.png>
+Package pdftex.def Info: ../frames/34.png  used on input line 176.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/35.png, id=31, 1445.4pt x 813.0375pt>
+File: ../frames/35.png Graphic file (type png)
+<use ../frames/35.png>
+Package pdftex.def Info: ../frames/35.png  used on input line 183.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/36.png, id=32, 1445.4pt x 813.0375pt>
+File: ../frames/36.png Graphic file (type png)
+<use ../frames/36.png>
+Package pdftex.def Info: ../frames/36.png  used on input line 190.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/37.png, id=33, 1445.4pt x 813.0375pt>
+File: ../frames/37.png Graphic file (type png)
+<use ../frames/37.png>
+Package pdftex.def Info: ../frames/37.png  used on input line 197.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/38.png, id=34, 1445.4pt x 813.0375pt>
+File: ../frames/38.png Graphic file (type png)
+<use ../frames/38.png>
+Package pdftex.def Info: ../frames/38.png  used on input line 204.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/39.png, id=35, 1445.4pt x 813.0375pt>
+File: ../frames/39.png Graphic file (type png)
+<use ../frames/39.png>
+Package pdftex.def Info: ../frames/39.png  used on input line 211.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/40.png, id=36, 1445.4pt x 813.0375pt>
+File: ../frames/40.png Graphic file (type png)
+<use ../frames/40.png>
+Package pdftex.def Info: ../frames/40.png  used on input line 218.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/41.png, id=37, 1445.4pt x 813.0375pt>
+File: ../frames/41.png Graphic file (type png)
+<use ../frames/41.png>
+Package pdftex.def Info: ../frames/41.png  used on input line 225.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/43.png, id=38, 1445.4pt x 813.0375pt>
+File: ../frames/43.png Graphic file (type png)
+<use ../frames/43.png>
+Package pdftex.def Info: ../frames/43.png  used on input line 232.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/44.png, id=39, 1445.4pt x 813.0375pt>
+File: ../frames/44.png Graphic file (type png)
+<use ../frames/44.png>
+Package pdftex.def Info: ../frames/44.png  used on input line 239.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/45.png, id=40, 1445.4pt x 813.0375pt>
+File: ../frames/45.png Graphic file (type png)
+<use ../frames/45.png>
+Package pdftex.def Info: ../frames/45.png  used on input line 246.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/46.png, id=41, 1445.4pt x 813.0375pt>
+File: ../frames/46.png Graphic file (type png)
+<use ../frames/46.png>
+Package pdftex.def Info: ../frames/46.png  used on input line 253.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/47.png, id=42, 1445.4pt x 813.0375pt>
+File: ../frames/47.png Graphic file (type png)
+<use ../frames/47.png>
+Package pdftex.def Info: ../frames/47.png  used on input line 262.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+ [2 <../frames/2.png>] [3 <../frames/3.png> <../frames/13.png>]
+[4 <../frames/14.png> <../frames/15.png>] [5 <../frames/16.png> <../frames/18.p
+ng> <../frames/19.png>] [6 <../frames/21.png> <../frames/22.png> <../frames/23.
+png>] [7 <../frames/24.png> <../frames/26.png> <../frames/27.png>] [8 <../frame
+s/28.png> <../frames/29.png> <../frames/30.png>] [9 <../frames/31.png> <../fram
+es/32.png>] [10 <../frames/33.png> <../frames/34.png>] [11 <../frames/35.png> <
+../frames/36.png>] [12 <../frames/37.png> <../frames/38.png>] [13 <../frames/39
+.png> <../frames/40.png>] [14 <../frames/41.png> <../frames/43.png>] [15 <../fr
+ames/44.png> <../frames/45.png>]
+<../frames/48.png, id=119, 1445.4pt x 813.0375pt>
+File: ../frames/48.png Graphic file (type png)
+<use ../frames/48.png>
+Package pdftex.def Info: ../frames/48.png  used on input line 269.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/49.png, id=120, 1445.4pt x 813.0375pt>
+File: ../frames/49.png Graphic file (type png)
+<use ../frames/49.png>
+Package pdftex.def Info: ../frames/49.png  used on input line 276.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/50.png, id=121, 1445.4pt x 813.0375pt>
+File: ../frames/50.png Graphic file (type png)
+<use ../frames/50.png>
+Package pdftex.def Info: ../frames/50.png  used on input line 283.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/51.png, id=122, 1445.4pt x 813.0375pt>
+File: ../frames/51.png Graphic file (type png)
+<use ../frames/51.png>
+Package pdftex.def Info: ../frames/51.png  used on input line 290.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/52.png, id=123, 1445.4pt x 813.0375pt>
+File: ../frames/52.png Graphic file (type png)
+<use ../frames/52.png>
+Package pdftex.def Info: ../frames/52.png  used on input line 297.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/53.png, id=124, 1445.4pt x 813.0375pt>
+File: ../frames/53.png Graphic file (type png)
+<use ../frames/53.png>
+Package pdftex.def Info: ../frames/53.png  used on input line 304.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/56.png, id=125, 1445.4pt x 813.0375pt>
+File: ../frames/56.png Graphic file (type png)
+<use ../frames/56.png>
+Package pdftex.def Info: ../frames/56.png  used on input line 313.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+ [16 <../frames/46.png> <../frames/47.png>]
+[17 <../frames/48.png> <../frames/49.png> <../frames/50.png>] [18 <../frames/51
+.png> <../frames/52.png> <../frames/53.png>]
+<../frames/60.png, id=143, 1445.4pt x 813.0375pt>
+File: ../frames/60.png Graphic file (type png)
+<use ../frames/60.png>
+Package pdftex.def Info: ../frames/60.png  used on input line 320.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+<../frames/61.png, id=144, 1445.4pt x 813.0375pt>
+File: ../frames/61.png Graphic file (type png)
+<use ../frames/61.png>
+Package pdftex.def Info: ../frames/61.png  used on input line 327.
+(pdftex.def)             Requested size: 272.99881pt x 153.56068pt.
+ [19 <../frames/56.png> <../frames/60.png>] [20 <../frames/61.png>] (manual.aux
+) ) 
+Here is how much of TeX's memory you used:
+ 1438 strings out of 480930
+ 21495 string characters out of 2909547
+ 264275 words of memory out of 3000000
+ 17312 multiletter control sequences out of 15000+200000
+ 534454 words of font info for 31 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,25p,541b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on manual.pdf (20 pages, 8163826 bytes).
+PDF statistics:
+ 166 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+

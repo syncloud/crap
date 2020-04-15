@@ -1,0 +1,167 @@
+Audio1:(Frame1){
+Hello world,
+This is Syncloud and I will show you how to setup your device. 
+}
+
+Audio2:(Frame2){
+Syncloud is free and open source. All your data will be stored at home, which you can easily access from all over the world.
+}
+
+Audio3:(Frame3){
+First, it’s time to get a Syncloud device. 
+}
+
+Audio4:(Frame4-13){
+You can buy a plug-and-play device in our shop. You can find our shop under shop dot syncloud dot org.
+}
+
+Audio5:(Frame14){
+Later, you must connect your device to your router and depending on the device type, to an external storage, as well. We offer two types of devices.
+}
+
+Audio6:(Frame15){
+One type, which requires an external storage.
+}
+
+Audio7:(Frame16){
+And another type, which has already an internal storage and does not require an external storage. However, you can still use an external storage if you want. Keep in mind, that you can use only one storage a time.
+}
+
+Audio8:(Frame17-18){
+Add the device of choice to the shopping cart.
+}
+
+Audio9:(Frame19-20){
+Get your device delivered to any country.
+}
+
+Audio10:(Frame21){
+And fall in love, when you hold it first time in your hands.
+}
+
+Audio11:(Frame22){
+In a second step, you must connect everything.
+}
+
+Audio12:(Frame23){
+Plug in your device to power supply and connect it with your router by a ethernet cable.
+}
+
+Audio13:(Frame24-25){
+Depending on your device type, plug in an external storage, as well.
+}
+
+Audio14:(Frame26){
+Now, there comes the activation.
+}
+
+Audio15:(Frame27){
+Connect your smartphone to the Wifi of your router.
+}
+
+Audio16:(Frame28){
+Download our Syncloud app for Android or your I phone.
+}
+
+Audio17:(Frame29){
+Open the app and sign in. You can use your username and password from your shop account.
+}
+
+Audio18:(Frame30){
+Then, press the plus button to search your device. If you have found it, click on the device name.
+}
+
+Audio19:(Frame31){
+Your browser will open, and the activation interface should appear. If there is a security warning, you can click on more or advanced and accept the risk.
+}
+
+Audio20:(Frame32){
+You will see the activation interface.
+}
+
+Audio21:(Frame33){
+Type in your e mail address and password same as in the shop or in the app. Type in a name you want to have for your device. With this URL, you will later access your device by the browser.
+}
+
+Audio22:(Frame34){
+Create then an account with which you can sign into your device later. Use any username and password.
+}
+
+Audio23:(Frame35){
+Press then activation. This can take a few minutes. 
+}
+
+Audio24:(Frame36){
+After that, you will get redirect to your device user interface with your chosen URL. Same issue again, if there is a security warning, you can click on more or advanced and accept the risk. A certificate will be created for you soon to allow a secure access to your device. If you don’t have a certificate till next day, please contact our support.
+}
+
+Audio25:(Frame37){
+If you can not access the device user interface by your URL, there is probably a so called “DNS rebind protection” in your router settings. Please browse to the web interface of your router and check for DNS rebind protection under your network settings. Add an exception for the domain Syncloud dot it. Now, you should be able to access your device by your URL. If not, please contact our support.
+}
+
+Audio26:(Frame38){
+Now, you can make your device accessible from extern, if you want. For that, you must find out if you have version 4 or version 6 of IP address.
+}
+
+Audio27:(Frame39){
+That, you can find out in your device user interface under settings. Click then on Network. If you have IPv6, it will appear with the IP address of your device.
+}
+
+Audio28:(Frame40){
+With IPv6 you can access your device from extern by default, so you don’t have to activate external access in the device settings. However, you must know, that you can only access from an IPv6 network and that you cannot access from an IPv4 network. Sadly, many public networks like of companies or schools and many mobile networks do not have IPv6 support.
+}
+
+Audio29:(Frame41-43){
+If you have IPv4, you must enable external access in your device settings. You must open two ports in your router called 80 and 443. You can try to do this with auto mode and save. Sometimes it fails. However, there is no reason to worry.
+}
+
+Audio30:(Frame44){
+You probably must enable UPnP in your router settings. Then try it again.
+}
+
+Audio31:(Frame45){
+If it fails again, you must open the two ports manually in your router settings. Open 80 for HTTP and 443 for HTTPS.
+}
+
+Audio32:(Frame46){
+Then, type 80 and 443 in the input fields in the device user interface and save. Now, you should be able to enable external access. If not, please contact our support.
+}
+
+Audio33:(Frame47){
+Now, you are ready to discover and enjoy your new device.
+}
+
+Audio34:(Frame48){
+Go to our app center to install an app. Click on any app, for example Nextcloud.
+}
+
+Audio35:(Frame49-50){
+Click on Install and wait untill the Open button appears. Enjoy your new app. Besides that, you can upgrade, backup or remove the app.
+}
+
+Audio36:(Frame51){
+For some apps, you have to open ports in your router.
+}
+
+Audio37:(Frame52){
+For example, the Mail server app needs open port 25.
+}
+
+Audio38:(Frame53){
+Or the OpenVPN app needs open port 1194. You can find further information in our documentation.
+}
+
+Audio39:(Frame54-56){
+Please visit our FAQs and documentation before contacting our support.
+}
+
+Audio40:(Frame57-60){
+If you like Syncloud, please support us. You can rate our products in the shop, participate on the code on GitHub, donate or buy more products in our shop and tell other persons about Syncloud.
+}
+
+Audio41:(Frame61){
+Thanks for watching. Your Syncloud team.
+}
+
+
+
